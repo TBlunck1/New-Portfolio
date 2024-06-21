@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- This is how you start an HTML document -->
+<html lang="en">
+  <!-- This is how you set the Language for your HTML Document -->
+  <head>
+    <title>Taylor Blunck Web Development Portfolio</title>
+    <!-- This is the Title of the website (will be in the tab part of the website)-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/Bahamas-pic.png" sizes="16x16">
+    <!-- This is the icon which will be placed on the tab part of the website -->
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/lib/normalize/8.0.1/normalize.min.css">
+    <!-- Adding this link above allows css to be used for styling -->
+    <!-- This link about links the CSS stylesheet to your html document-->
+  </head>  
+
+  <body>
+    <!-- Header including the logo and the main navigation -->
+    <header class="page-header">
+      <!-- Add logo here -->
+      <img src="img/wolf-howling-at-the-moon.jpg" alt="Taylor Blunck" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <!-- This is ARIA nav bar. You'll be using this alot for your website projects in the future-->
+        <ul role="menubar" class="navigation-list">
+        <!-- Adding the Navigation-list lets you style the link for the page -->
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">Home</a>  
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- This is the HTML Skeleton of how to create a navigation bar list for your website projects-->
+    </header>
+    <h1>
+      <img src="images/Taylors-Portrait-Pic-EDITED.png" class="profile_portrait" alt="Taylor Blunck portrait">
+      <!-- This is how you will place your image (class is how you'll point the css stylesheet page to how you want the image to look in CSS), (The alt is identifying what the image is for screenreaders) -->
+    </h1>
+    <main class="profile">
+      <h1>Hello World</h1>
+      <p>
+      My name is Taylor Blunck.
+      </p>
+      <p>
+      I am a <span>Web Developer</span> from Sandy Utah
+      </p>
+      <!-- The span tag is a inline element container used for a part of a text or a part of a document. Easily styled by CSS -->
+      <div class="links__projects">
+        <a href="work.html">Check out some of my coding projects here</a>
+      </div>
+    </main>
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <img src="img/instagram-2016-logo-svgrepo.com.svg/30x30" alt="Instagram" class="svg_pic">
+        <img src="img/github-142-svgrepo.com.svg/30x30" alt="github" class="svg_pic">
+        <img src="img/linkedin-svgrepo.com.svg/30x30" alt="Linkedin" class="svg_pic">
+        <!-- Add images form Github, Instagram, and Linkedin here. Also need to add links for getting to your social media accounts -->
+        <!-- This is how you add links to your personal social media accounts -->
+      </div>  
+    </footer>
+  </body>
+
+</html>
