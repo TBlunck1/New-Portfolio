@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Taylor's Contact information</title>
+    <link rel="icon" type="image/png" href="img/Bahamas-pic.png" sizes="16x16">
+    <link rel="stylesheet" type="text/css" href="css/styles.production.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+    <!-- Header including the logo and the main navigation -->
+  <header class="page-header">
+    <!-- Add logo here -->
+    <img src="img/wolf-howling-at-the-moon.jpg" alt="Taylor Blunck" class="page-header__item">
+    <nav class="main-navigation page-header__item">
+  <!-- This is ARIA nav bar. You'll be using this alot for your website projects in the future-->
+      <ul role="menubar" class="navigation-list">
+      <!-- Adding the Navigation-list lets you style the link for the page -->
+        <li role="presentation">
+          <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item">Home</a>  
+        </li>
+        <li role="presentation">
+          <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+        </li>
+        <li role="presentation">
+          <a href="contact.html" role="menuitem" class="navigation-list__item--active">Contact</a>
+        </li>
+        <li role="presentation">
+          <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
+        </li>
+      </ul>
+    </nav>
+      <!-- This is the HTML Skeleton of how to create a navigation bar list for your website projects-->
+  </header>
+    <!-- This is the HTML Skeleton of how to create a navigation bar list for your website projects-->
+    <img src="images/Taylors-Portrait-Pic-EDITED.png" alt="Taylor Blunck's Portrait" class="profile_portrait">
+  <main class="profile">
+    <h1>Here is my Contact Information</h1>
+  </main>
+  <div>
+    <a href="mailto:taylorbk99@gmail.com">Email me at taylorbk99@gmail.com</a>
+    <!-- This allows others to send you emails by clicking on this link in the web page -->
+    <br>
+    Sandy Utah<br>
+    United States<br>
+    <br>
+  </div>
+  <br>
+  <div>
+    Add your information here<br>
+    <form method="post" id="contact-form">
+      <label class="standard-label" for="contact-email">Email: </label>
+      <input type="email" id="contact-email" required>
+         
+      <label class="standard-label">Telephone: </label>
+      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+
+      <label class="standard-label">Message: </label>
+      <input type="submit" value="Send Message">
+      <!-- This a table for others to add there information to send to you -->
+    </form>
+  </div>
+
+  <footer class="page-footer">
+    <p>Find me on</p>
+    <div class="social-media">
+      <img src="img/instagram-2016-logo-svgrepo.com.svg/30x30" alt="Instagram" class="svg_pic">
+      <img src="img/github-142-svgrepo.com.svg/30x30" alt="github" class="svg_pic">
+      <img src="img/linkedin-svgrepo.com.svg/30x30" alt="Linkedin" class="svg_pic">
+      <!-- Add images form Github, Instagram, and Linkedin here. Also need to add links for getting to your social media accounts -->
+      <!-- This is how you add links to your personal social media accounts -->
+    </div>  
+  </footer>
+  <script src="JS/tota11y.min.js"></script>
+</body>
+
+</html>
