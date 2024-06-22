@@ -13,6 +13,7 @@
 .profile {
     max-width: 700px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .profile_portrait {
@@ -37,6 +38,7 @@
 }
 
 .page-header {
+    font-family: 'Rubik', sans-serif;
     float: left;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -118,6 +120,7 @@
 
 .links__projects {
     text-align: center;
+    padding: 10px;
 }
 
 h1 {
@@ -130,9 +133,10 @@ h1 {
 
 h2 {
     font-family: 'Rubik', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.6;
+    text-align: center;
 }
 
 main {
@@ -149,6 +153,7 @@ table {
 }
 
 th {
+    background-color: lightslategray;
     padding: 10px;
     margin: 10px;
     border: 1px solid #000000;
@@ -156,6 +161,7 @@ th {
 }
 
 td {
+    background-color: lightblue;
     padding: 10px;
     margin: 10px;
     border: 1px solid #000000;
@@ -163,6 +169,7 @@ td {
 }
 
 span {
+    color: blue;
     font-size: 16px;
     font-weight: bold;
 }
@@ -230,6 +237,11 @@ button:focus {
 p {
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+    text-align: center;
+}
+
+li {
+    font-family: 'Rubik', sans-serif;
     text-align: center;
 }
 
