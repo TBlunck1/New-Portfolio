@@ -18,6 +18,7 @@
 .profile_portrait {
     float: left;
     width: 350px;
+    margin-top: 20px;
     margin-right: 40px;
     margin-left: 30px;
     border-radius: 50%;
@@ -40,8 +41,11 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    background-color: lightslategray;
     width: 100%;
-    padding: 30px;
+    padding: 10px;
+    border: 5px solid #000000;
+    border-style: ridge;
 }
 
 .page-header__item {
@@ -49,7 +53,8 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 200px;
             flex: 0 1 200px;
-    text-align: center;
+    text-align: left;
+    border-radius: 50%;
 }
 
 .page-header__item:last-child {
@@ -61,6 +66,7 @@
 }
 
 .navigation-list {
+    font-family: sans-serif;
     list-style-type: none;
 }
 
@@ -91,7 +97,7 @@
 }
 
 .grid__item {
-    background-color: #d3d3d3;
+    background-color: lightslategray;
     width: auto;
     min-height: auto;
     margin: 0;
@@ -228,6 +234,7 @@ p {
 }
 
 body {
+    background-color: #f9f9f9;
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
     font-size: 16px;
